@@ -1,0 +1,117 @@
+.footer {
+    background-color: #4D4D4D;
+    .containerFooter {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 2rem 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        .brand {
+            img {
+                width: 88px;
+                height: 32px;
+            }
+            .social {
+                margin: 0.8rem 0;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                .facebook svg:hover {
+                    fill: orange;
+                }
+                .instagram svg:hover {
+                    fill: orange;
+                }                            
+            }
+            p {
+                margin-top: 10px;
+                font-size: 14px;
+                font-family: "Lato", sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                font-size: 1rem;
+                color: white;
+            } 
+            a {
+                color: white;
+                display: flex;
+                align-items: center;
+                gap: 0.3rem;
+                text-decoration: none;
+            }
+        }
+
+        .linkMenuFooter {
+            ul {
+                list-style: none;
+                li{
+                    line-height: 1.25rem;
+                    .secconLink{
+                        text-decoration: none;
+                        color: #BEBEBE;
+                        transition: all 0.3s;
+                        font-family: "Lato", sans-serif;
+                        font-style: normal;
+                        font-weight: 300;
+                    }
+                    .titleLink {
+                        font-weight: 600;
+                        color: white;
+                        text-decoration: none;
+                        transition: all 0.3s;
+                        font-family: "Lato", sans-serif;
+                        font-style: normal;
+                    }
+                    .secconLink:hover,
+                    .titleLink:hover {
+                        text-decoration: underline;
+                        transition: all 0.3s;
+                    }
+                }
+            }
+        }
+        .colectionFooter {
+            ul {
+                list-style: none;
+                li {
+                    text-decoration: none;
+                    color: #BEBEBE;
+                    transition: all 0.3s;
+                    font-family: "Lato", sans-serif;
+                    font-style: normal;
+                    line-height: 1.25rem;
+                    font-weight: 300;
+                    a {
+                        font-weight: 600;
+                        color: white;
+                        text-decoration: none;
+                        transition: all 0.3s;
+                        font-family: "Lato", sans-serif;
+                        font-style: normal;
+                    }
+                }
+            }
+        }
+        .colectionFooter ul li a:hover {
+            text-decoration: underline;
+        }
+        .custommerThailand {
+            p {
+                color: white;
+                font-family: "Lato", sans-serif;
+                font-style: normal;
+            }
+            .textPhone {
+                margin: unset;
+                font-family: "Lato", sans-serif;
+                font-style: normal;
+            }
+            span {
+                color: #BEBEBE;
+                font-family: "Lato", sans-serif;
+                font-style: normal;
+            }
+        }
+    }
+}

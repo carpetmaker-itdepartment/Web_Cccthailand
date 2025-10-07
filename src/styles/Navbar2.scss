@@ -1,0 +1,46 @@
+
+
+.navBar2 {
+    position: sticky;
+    background-color: white;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    .containerNavbar {
+        max-width: 1440px;
+        margin: 0 auto;
+        padding: 1rem;
+        width: 100%;
+        border-bottom: 1px solid black;
+        .menuList {
+            display: flex;
+            align-items: center;
+            list-style: none;
+            justify-content: space-between;
+            margin: unset;
+            padding: unset;
+            width: 100%;
+            padding: 0.5rem;
+            .menuItem{
+                .menuLink {
+                    text-decoration: none;
+                    font-family: "Lato", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                    font-size: 1rem;                   
+                    color: black;
+                    img {
+                        width: 170px;
+                        height: 70px;
+                    }
+                }
+                .menuLink.active {
+                    font-weight: 800;
+                }
+                .menuLink:hover {
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+}

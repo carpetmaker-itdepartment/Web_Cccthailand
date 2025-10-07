@@ -1,0 +1,147 @@
+.collections {
+    .containerCollect {
+        .collectContents1 {
+            text-align: center;
+            max-width: calc(100% - 380px);
+            margin: 5rem auto;
+            h1 {
+                margin-bottom: 2rem;
+                font-size: 22px;
+                font-family: "Lato", sans-serif;
+                font-weight: 600;
+                letter-spacing: 1px;
+            }
+            p {
+                font-size: 20px;
+                font-family: "Lato", sans-serif;
+                font-weight: 300;
+            }
+        }
+        .collecContents2 {
+            max-width: calc(100% - 380px);
+            margin: 5rem auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            a {
+                text-decoration: none;
+                color: black;
+            }
+            .boxPic {
+                height: 697px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                h1 {
+                    font-family: "Arapey", serif;
+                    font-weight: 400;
+                    font-style: italic;
+                    font-size: 45px;
+                }
+            }
+            .box-images {
+                overflow: hidden;
+                width: 400px;
+                height: 555px;
+                position: relative;
+                border-radius: 30px;
+                .boxText {
+                    position: absolute;
+                    bottom: 24px;
+                    z-index: 1;
+                    left: 20px;
+                    color: white;
+                    font-size: 20px;
+                    font-family: "Lato", sans-serif;
+                    font-weight: 300;
+                }
+                img {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover; /* Ensures the image fits well */
+                    transition: opacity 0.5s ease; /* Smooth transition */
+                }
+            }
+            .imaghover {
+                transition: 0.5s ease-in-out;
+            }
+            .box-images img.imagdefaul {
+                opacity: 1;
+            }
+            .box-images img.imaghover {
+                opacity: 0;
+            }
+            .box-images:hover img.imagdefaul {
+                opacity: 0;
+            }
+            .box-images:hover img.imaghover {
+                opacity: 1;
+                transform: scale(1.1);
+                transition: all 0.5s;
+            }
+
+            .box-imagesFullsize {
+                overflow: hidden;
+                width: 400px;
+                height: 697px;
+                position: relative;
+                border-radius: 30px;
+                .boxText {
+                    position: absolute;
+                    bottom: 24px;
+                    z-index: 1;
+                    left: 20px;
+                    color: white;
+                    font-size: 20px;
+                    font-family: "Lato", sans-serif;
+                    font-weight: 300;
+                }
+                img {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover; /* Ensures the image fits well */
+                    transition: opacity 0.5s ease; /* Smooth transition */
+                }
+            }
+            .imaghover,
+            .imagdefaul {
+                transition: all 0.5s ease-in-out;
+            }
+            .box-imagesFullsize img.imagdefaul {
+                opacity: 1;
+            }
+            .box-imagesFullsize img.imaghover {
+                opacity: 0;
+            }
+            .box-imagesFullsize:hover img.imagdefaul {
+                opacity: 0;
+            }
+            .box-imagesFullsize:hover img.imaghover {
+                opacity: 1;
+                transform: scale(1.1);
+                transition: all 0.5s ease-in-out;
+            }
+        }
+        .collecContents3 {
+            max-width: calc(100% - 380px);
+            margin: 5rem auto;
+            text-align: center;
+            h1 {
+                font-size: 45px;
+                font-family: "Arapey", serif;
+                font-weight: 400;
+                font-style: italic;
+                color: black;
+            }
+            p {
+                margin-top: 2rem;
+                font-size: 20px;
+                font-family: "Lato", sans-serif;
+                font-weight: 400;
+                color: black;
+            }
+        }
+    }
+}

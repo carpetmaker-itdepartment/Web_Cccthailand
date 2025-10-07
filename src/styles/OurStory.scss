@@ -1,0 +1,96 @@
+.story {
+    background-color: white;
+    .containerStory {
+        max-width: 1440px;
+        margin: 0 auto;
+        .story1 {
+            text-align: center;
+            max-width: calc(100% - 380px);
+            margin: 5rem auto;
+            h1 {
+                margin-bottom: 2rem;
+                font-size: 22px;
+                font-family: "Lato", sans-serif;
+                font-weight: 600;
+                letter-spacing: 2px;
+            }
+            p {
+                font-size: 20px;
+                font-family: "Lato", sans-serif;
+                font-weight: 300;
+            }
+        }
+        .story2 {
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                max-width: calc(100% - 380px);
+                margin: 0 auto;
+            }
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .story3 {
+            max-width: calc(100% - 380px);
+            margin: 6rem auto;
+            .story3Contents {
+                display: flex;
+                align-items: center;
+                justify-content: start;
+                gap: 125px;
+                img {
+                    width: 550px;
+                    height: 634px;
+                }
+                .story3Title {
+                    h1 {
+                        font-family: "Arapey", serif;
+                        font-weight: 400;
+                        font-style: italic;
+                        font-size: 45px;
+                        margin-bottom: 41px;
+                    }
+                    p {
+                        font-size: 18px;
+                        font-family: "Lato", sans-serif;
+                        font-weight: 300;
+                    }
+                }
+            }
+        }
+        .story4 {
+            .story4Contents {
+                max-width: calc(100% - 380px);
+                margin: 4rem auto;
+               
+                .contents {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 2rem;
+                    margin-bottom: 6rem;
+                    h1 {
+                        font-family: "Arapey", serif;
+                        font-weight: 500;
+                        font-style: italic;
+                        font-size: 45px;
+                        margin-bottom: 41px;
+                    }
+                    p {
+                        font-size: 18px;
+                        font-family: "Lato", sans-serif;
+                        font-weight: 300;
+                    }                    
+                }
+                .contents:nth-child(2),
+                .contents:nth-child(3),
+                .contents:nth-child(4) {
+                    gap: 125px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,116 @@
+.qvira {
+    .qviraSec1 {
+        max-width: 1440px;
+        margin: 4rem auto;
+        display: flex;
+        justify-content: start;
+        gap: 125px;
+        align-items: center;
+        .textQviraSec1 {
+            h1 {
+                margin-bottom: 41px;
+                font-family: "Arapey", serif;
+                font-weight: 400;
+                font-style: italic;
+                font-size: 45px;
+            }
+            h4 {
+                margin-bottom: 28px;
+                font-size: 20px;
+                font-family: "Lato", sans-serif;
+                font-weight: 500;
+            }
+            p {
+                font-size: 18px;
+                font-family: "Lato", sans-serif;
+                font-weight: 300;
+            }
+        }
+    }
+    .qviraSec2 {
+        max-width: 1440px;
+        margin: 4rem auto;
+        display: flex;
+        justify-content: end;
+        gap: 125px;
+        align-items: center;
+        .textQviraSec2 {
+            h1 {
+                margin-bottom: 41px;
+                font-family: "Arapey", serif;
+                font-weight: 400;
+                font-style: italic;
+                font-size: 45px;
+            }
+            p {
+                font-size: 18px;
+                font-family: "Lato", sans-serif;
+                font-weight: 300;
+            }
+        }
+    }
+    .qviraSec3 {
+        text-align: center;
+        h1 {
+            font-family: "Arapey", serif;
+            font-weight: 400;
+            font-style: italic;
+            font-size: 60px;
+            margin-bottom: 30px;
+            margin-top: 100px;
+        }
+        img {
+            margin-bottom: 100px;
+        }
+    }
+    .qviraSec4 {
+        max-width: 1440px;
+        margin: 4rem 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        .itemQviraSec4 {
+            display: flex;
+            justify-content: center;
+            gap: 125px;
+            align-items: center;
+            .qviraTextsec4 {
+                h1 {
+                    font-size: 20px;
+                    font-family: "Lato", sans-serif;
+                    font-weight: 500;
+                    margin-bottom: 41px;
+                }
+                p {
+                    font-size: 18px;
+                    font-family: "Lato", sans-serif;
+                    font-weight: 300;
+                }
+            }
+            .qviraTextsec4-1 {
+                div {
+                    margin-bottom: 30px;
+                }
+                h1 {
+                    font-size: 20px;
+                    font-family: "Lato", sans-serif;
+                    font-weight: 500;
+                }
+                p {
+                    font-size: 18px;
+                    font-family: "Lato", sans-serif;
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+    .textInnoQvira {
+        text-align: center;
+        p {
+            font-size: 20px;
+            font-family: "Lato", sans-serif;
+            font-weight: 500;
+            margin: 100px 0;
+        }
+    }
+}
