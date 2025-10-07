@@ -15,7 +15,7 @@ function OurStory() {
       <div className="containerStory">
         <section className='story1'>
           <div>
-            <h1>AT CUSTOM CREATIVE CARPETS, CCC THAILAND <br /> WE BRING YOUR IDEAS TO LIFE. </h1>
+            <h1>At Custom Creative Carpets (CCC) <br/>  Thailand, we bring your ideas to life. </h1>
             <p>From exclusive patterns to complex designs, our advanced dyeing process in the lab unlock limitless <br /> color possibilities, ensuring your ideas come to life.</p>
           </div>
         </section>

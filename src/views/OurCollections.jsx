@@ -33,8 +33,8 @@ function OurCollections() {
         <div className='containerCollect'>
             <section className='collectContents1'>
                 <div>
-                    <h1>AT CUSTOM CREATIVE CARPETS, CCC THAILAND, <br /> OUR COMMITMENT TO EXCELLENCE IS WIDE RANGE OF CARPET COLLECTIONS <br /> TO SUIT EVERY NEED. </h1>
-                    <p>With the nearly four decades experience of our craftsmenship, we have hand-made techniques that attention to every detail, <br /> both hand-tufted and hand-woven, and also variety of materials, from natural materials such as wool, silk, cotton, linen, tencel, <br /> bamboo, sisal etc. to innovative materials such as MONSILK™ upcycling, Alfresco™ Outdoor carpet and nylon, K-Silk. <br /> All this to make your imagination come to reality.</p>
+                    <h1>At Custom Creative Carpets (CCC) Thailand,  <br />  our commitment to excellence is reflected in our wide range of carpet collections <br />  designed to suit every need. </h1>
+                    <p>With nearly four decades of craftsmanship, we bring expertise and attention to every detail through our hand-made techniques. Whether it’s hand-tufted or hand-woven, we work with a variety of materials, ranging from natural options like wool, silk, cotton, linen, tencel, bamboo, and sisal, to innovative materials such as MONSILK™ upcycled yarn, Alfresco™ outdoor carpet, nylon, and K-Silk. All of this is crafted to bring your imagination to life.</p>
                 </div>
             </section>
             <section className='collecContents2'>
@@ -45,7 +45,7 @@ function OurCollections() {
                             <div className='box-images'>
                                 <div className='boxText'>
                                     <p>Radiance Canyon <br /> Collection</p>
-                                    <p>A collection that fulfills <br /> your limitless imagination</p>
+                                    <p>Unleash creativity with carpets <br /> inspired by nature's wonders.</p>
                                 </div>
                                 <img src={collect1} className='imagdefaul' alt="" />
                                 <img src={collectHov} className='imaghover' alt="" />
