@@ -38,7 +38,7 @@
         margin: 4rem auto;
         display: flex;
         justify-content: center;
-        gap: 125px;
+        gap: 100px;
         .images {
             width: 820px;
             height: 547px;
@@ -137,6 +137,9 @@
         gap: 20px;
         max-width: 1440px;
         margin: 4rem auto;
+        img {
+            width: 100%;
+        }
     }
     .textAtelier {
         text-align: center;

@@ -67,7 +67,7 @@ function OurCollections() {
                     <div className='box-imagesFullsize'>
                         <div className='boxText'>
                             <p>Atelier Mélange <br /> Collection</p>
-                            <p>Our unique special technique <br /> W-Tufted for exceptional texture</p>
+                            <p>Bold textures, redefined  <br /> with W-Tufted innovation.</p>
                         </div>
                         <img src={collect3} className='imagdefaul' alt="" />
                         <img src={collectHov3} className='imaghover' alt="" />
@@ -77,7 +77,7 @@ function OurCollections() {
                     <div className='box-imagesFullsize'>
                         <div className='boxText'>
                             <p>Ocean Rewoven <br /> Collection</p>
-                            <p>A collection that fulfills <br /> your limitless imagination</p>
+                            <p>Sustainable style, <br /> inspired by the sea.</p>
                         </div>
                         <img src={collect4} className='imagdefaul' alt="" />
                         <img src={collectHov4} className='imaghover' alt="" />
@@ -87,7 +87,7 @@ function OurCollections() {
                     <div className='box-imagesFullsize'>
                         <div className='boxText'>
                             <p>Outdoor Endura <br /> Collection</p>
-                            <p>Delicate and meticulous <br /> workmanship in every thread</p>
+                            <p>Built for the outdoors, <br /> styled for extraordinary living.</p>
                         </div>
                         <img src={collect5} className='imagdefaul' alt="" />
                         <img src={collectHov5} className='imaghover' alt="" />
@@ -97,7 +97,7 @@ function OurCollections() {
                     <div className='box-imagesFullsize'>
                         <div className='boxText'>
                             <p>VersaStyle <br /> Collection</p>
-                            <p>Special techniques that show <br /> extraordinary textures</p>
+                            <p>Reimagine your space with <br /> dynamic textures that inspire.</p>
                         </div>
                         <img src={collect6} className='imagdefaul' alt="" />
                         <img src={collectHov6} className='imaghover' alt="" />
@@ -107,7 +107,7 @@ function OurCollections() {
                     <div className='box-imagesFullsize'>
                         <div className='boxText'>
                             <p>Luxury Yacht <br /> Collection</p>
-                            <p>Step aboard to luxury space <br /> with our premium carpet</p>
+                            <p>Sail in style with <br /> premium elegance.</p>
                         </div>
                         <img src={collect7} className='imagdefaul' alt="" />
                         <img src={collectHov7} className='imaghover' alt="" />
@@ -117,7 +117,7 @@ function OurCollections() {
                     <div className='box-imagesFullsize'>
                         <div className='boxText'>
                             <p>Private Jet <br /> Collection</p>
-                            <p>Brought beauty of the most luxurious <br /> floors around the globe</p>
+                            <p>Fly above the clouds with <br /> floors that redefine luxury.</p>
                         </div>
                         <img src={collect8} className='imagdefaul' alt="" />
                         <img src={collectHov8} className='imaghover' alt="" />
@@ -127,7 +127,7 @@ function OurCollections() {
                     <div className='box-imagesFullsize'>
                         <div className='boxText'>
                             <p>Classic <br /> Collection </p>
-                            <p>Combines masterpiece with skill <br /> craftsmanship to high-class carpet</p>
+                            <p>Classic designs that <br /> never go out of style.</p>
                         </div>
                         <img src={collect9} className='imagdefaul' alt="" />
                         <img src={collectHov9} className='imaghover' alt="" />
@@ -137,7 +137,7 @@ function OurCollections() {
             <section className='collecContents3'>
                 <div>
                     <h1>HAVE SOME FRESH <br /> IMAGINATION? <br /> LET’S CONTACT US <br /> TO MAKE IT REAL!</h1>
-                    <p>Custom Creative Carpets, <br /> CCC Thailand</p>
+                    <p>Custom Creative Carpets, <br />  CCC Thailand</p>
                 </div>
             </section>
         </div>
